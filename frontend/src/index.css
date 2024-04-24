@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800');
+
+body {
+  background: linear-gradient(#1b5661, #84cedb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+form {
+  border-radius: 5px;
+  background-color: #0A2647;
+  min-width: 50%;
+}
+
+.top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  position: relative;
+  background: url('../public/wave_sm.png') no-repeat bottom;
+  background-color: #0c3770;
+}
+
+.heading {
+  width: 50%;
+  position: absolute;
+  top: -1rem;
+}
+
+.icon-box {
+  position: absolute;
+  bottom: -1rem;
+}
+
+.heading>h3 {
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(3, 5, 74);
+  color: #4fd9f1;
+  font: normal 1rem 'Roboto';
+}
+
+.bottom {
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.input-box {
+  border-radius: 5px;
+  border: 1px solid #D6E4E5;
+}
+
+.input-icon-box {
+  padding: 0.5rem;
+}
+
+.form-control-box {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0 5px 5px 0;
+  background-color: transparent;
+  color: #D6E4E5;
+  border-left: 2px solid #D6E4E5;
+}
+
+.form-control-box::placeholder {
+  color: #D6E4E5;
+}
+
+input[type="date"] {
+  width: 100%;
+  color: #D6E4E5;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
+label {
+  color: #D6E4E5;
+  margin-left: 1rem;
+}
+.submit-btn {
+  background-color: rgb(3, 5, 74);
+  color: #4fd9f1;
+  font: normal 1rem 'Roboto';
+  width: 50%;
+  transition: all 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: #4fd9f1;
+  color: rgb(3, 5, 74);
+}
+
+p {
+  margin: 1rem 0 0 0;
+  color: #D6E4E5;
+}
+p>a {
+  text-decoration: none;
+}
+p>a:hover {
+  color: #D6E4E5;
+}
