@@ -1,5 +1,5 @@
 {
-  "name": "quantum-it",
+  "name": "login-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon backend/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vijay Shinde",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
